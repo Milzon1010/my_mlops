@@ -1,0 +1,13 @@
+[
+  {
+    "name": "my-ml-container",
+    "image": "794038231671.dkr.ecr.ap-southeast-2.amazonaws.com/my-mlflow-app:latest",
+    "essential": true,
+    "portMappings": [
+      {
+        "containerPort": 5000,
+        "protocol": "tcp"
+      }
+    ]
+  }
+]
